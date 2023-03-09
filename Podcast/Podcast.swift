@@ -13,6 +13,18 @@ struct Podcast {
 	let artist: String
 	let imageURL: URL
 	var episodes: [Episode]
+
+	subscript(episodeID: Episode.ID) -> Episode? {
+		get {
+			episodes.first { $0.id == episodeID }
+		}
+		set {
+			guard let newValue,
+				  let index = episodes.firstIndex(where: { $0.id == episodeID })
+			else { return }
+			episodes[index] = newValue
+		}
+	}
 }
 
 extension Podcast: Decodable {
