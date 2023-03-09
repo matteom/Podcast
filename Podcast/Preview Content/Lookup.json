@@ -1,0 +1,52 @@
+{
+	"resultCount":6,
+	"results":[
+		{
+			"collectionId":1386867488,
+			"artistName":"Jonathan Pageau",
+			"collectionName":"The Symbolic World",
+			"artworkUrl600":"https://is5-ssl.mzstatic.com/image/thumb/Podcasts125/v4/1a/b1/d4/1ab1d4b8-ae33-da25-d3c1-b919bbf6b9e0/mza_4176360441897917495.jpg/600x600bb.jpg"
+		},
+		{
+			"trackTimeMillis":3017000,
+			"collectionId":1386867488,
+			"trackId":1000600017070,
+			"trackName":"275 - Michael Legaspi - Subjectivity and the Psalms",
+			"releaseDate":"2023-02-16T16:00:17Z",
+			"episodeUrl":"https://feeds.soundcloud.com/stream/1447464973-jonathan-pageau-307491252-275-michael-legaspi.mp3"
+		},
+		{
+			"trackTimeMillis":4652000,
+			"collectionId":1386867488,
+			"trackId":1000598863604,
+			"trackName":"274 - Spencer Klavan - How To Save The West (More Christ Podcast)",
+			"releaseDate":"2023-02-09T13:07:04Z",
+			"episodeUrl":"https://feeds.soundcloud.com/stream/1443143848-jonathan-pageau-307491252-274-spencer-klavan-how-to-save-the-west-more-christ-podcast.mp3"
+		},
+		{
+			"trackTimeMillis":1792000,
+			"collectionId":1386867488,
+			"trackId":1000597908329,
+			"trackName":"273 - Why We Venerate Images",
+			"releaseDate":"2023-02-03T16:33:24Z",
+			"episodeUrl":"https://feeds.soundcloud.com/stream/1439112550-jonathan-pageau-307491252-273-why-we-venerate-images.mp3"
+		},
+		{
+			"trackTimeMillis":1942000,
+			"collectionId":1386867488,
+			"trackId":1000596968117,
+			"trackName":"272 - Brandon Dayton - Green Monk",
+			"releaseDate":"2023-01-27T16:54:57Z",
+			"episodeUrl":"https://feeds.soundcloud.com/stream/1433878432-jonathan-pageau-307491252-272-brandon-dayton-green-monk.mp3"
+		},
+		{
+			"trackTimeMillis":3225000,
+			"collectionId":1386867488,
+			"trackId":1000596286323,
+			"trackName":"271 - The Plagues Of Egypt",
+			"releaseDate":"2023-01-24T11:57:38Z",
+			"episodeUrl":"https://feeds.soundcloud.com/stream/1431289465-jonathan-pageau-307491252-271-the-plagues-of-egypt.mp3"
+		}
+	]
+}
+
