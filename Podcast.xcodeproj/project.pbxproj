@@ -15,6 +15,8 @@
 		9528AE4929BA7727007D30EB /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9528AE4829BA7727007D30EB /* PreviewData.swift */; };
 		9528AE4B29BA778A007D30EB /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9528AE4A29BA778A007D30EB /* Header.swift */; };
 		9528AE4D29BA77EA007D30EB /* EpisodeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9528AE4C29BA77EA007D30EB /* EpisodeRow.swift */; };
+		9528AE4F29BA7974007D30EB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9528AE4E29BA7974007D30EB /* LICENSE */; };
+		9528AE5129BA798D007D30EB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9528AE5029BA798D007D30EB /* README.md */; };
 		959E5F9329A676D000219770 /* PodcastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E5F9229A676D000219770 /* PodcastApp.swift */; };
 		959E5F9529A676D000219770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E5F9429A676D000219770 /* ContentView.swift */; };
 		959E5F9729A676D200219770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959E5F9629A676D200219770 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		9528AE4829BA7727007D30EB /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		9528AE4A29BA778A007D30EB /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		9528AE4C29BA77EA007D30EB /* EpisodeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRow.swift; sourceTree = "<group>"; };
+		9528AE4E29BA7974007D30EB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9528AE5029BA798D007D30EB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		959E5F8F29A676D000219770 /* Podcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959E5F9229A676D000219770 /* PodcastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastApp.swift; sourceTree = "<group>"; };
 		959E5F9429A676D000219770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		959E5F8629A676D000219770 = {
 			isa = PBXGroup;
 			children = (
+				9528AE4E29BA7974007D30EB /* LICENSE */,
+				9528AE5029BA798D007D30EB /* README.md */,
 				959E5F9129A676D000219770 /* Podcast */,
 				959E5F9029A676D000219770 /* Products */,
 			);
@@ -151,6 +157,8 @@
 			files = (
 				959E5F9A29A676D200219770 /* Preview Assets.xcassets in Resources */,
 				959E5F9729A676D200219770 /* Assets.xcassets in Resources */,
+				9528AE5129BA798D007D30EB /* README.md in Resources */,
+				9528AE4F29BA7974007D30EB /* LICENSE in Resources */,
 				9528AE4729BA76A6007D30EB /* Lookup.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
