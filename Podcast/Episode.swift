@@ -14,6 +14,19 @@ struct Episode: Identifiable {
 	let title: String
 	let date: Date
 	let url: URL
+	var isDownloading: Bool = false
+	private(set) var currentBytes: Int64 = 0
+	private(set) var totalBytes: Int64 = 0
+
+	var progress: Double {
+		guard totalBytes > 0 else { return 0.0 }
+		return Double(currentBytes) / Double(totalBytes)
+	}
+
+	mutating func update(currentBytes: Int64, totalBytes: Int64) {
+		self.currentBytes = currentBytes
+		self.totalBytes = totalBytes
+	}
 }
 
 extension Episode: Decodable {
